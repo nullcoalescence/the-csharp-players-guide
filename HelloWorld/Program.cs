@@ -15,6 +15,13 @@
             Console.WriteLine("Yet another Console.WriteLine()");
             Console.WriteLine("Uno mas Console.WriteLine()");
             Console.WriteLine("Last but not least Console.WriteLine()");
+
+            // Challenge
+            Console.WriteLine("Bread is ready.");
+            Console.WriteLine("Who is the bread for?");
+            var name = Console.ReadLine();
+
+            Console.WriteLine($"Noted, {name} got bread.");
         }
     }
 }
